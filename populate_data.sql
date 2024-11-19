@@ -1,0 +1,13 @@
+-- Source the create_tables.sql to create all tables
+SOURCE /Users/prabuddhadurge/Desktop/DBMS/create.sql;
+
+-- Source the insert_data.sql to insert data into the tables
+SOURCE /Users/prabuddhadurge/Desktop/DBMS/insert.sql;
+
+
+-- [DONE] BILLING TABLE SHOULD HAVE ROOM NUMBER AND PATIENT ID ALSO
+-- [HANDLED] THERE ARE DATES WHERE DISCHARGE HAPPENS BEFORE THE ADMISSION  : 24420 ROWS
+-- [CHANGE] DISCHARGE DATE IS TAKEN AS BILLING DATE
+-- [DONE] PATIENT_ID SHOULD BE REMOVED FROM CONDITIONS TABLE
+-- [DONE] HOSPITAL ID SHOULD BE REMOVED FROM DOCTOR TABLE
+-- SOME BILLING AMOUNT ARE NEGATIVE
